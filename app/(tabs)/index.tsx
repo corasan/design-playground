@@ -1,5 +1,5 @@
 import { StyleSheet, View } from 'react-native'
-import { MetalButton } from '../components/MetalButton'
+import { MetalButton } from '@/components/MetalButton'
 import { useState } from 'react'
 
 export default function HomeScreen() {
