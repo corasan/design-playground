@@ -34,7 +34,7 @@ export function MetalButton({ width }: { width: number }) {
             positions={[0, 0.7, 1]}
           />
         </Circle>
-        <Group style="stroke" strokeWidth={3}>
+        <Group style="stroke" strokeWidth={2}>
           <Circle cx={r} cy={r} r={r} />
           <Circle cx={r} cy={r} r={r + 1} color="#000" strokeWidth={0.4}>
             <LinearGradient
